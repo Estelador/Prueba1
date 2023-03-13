@@ -1,8 +1,7 @@
-/*Programa para juego con pistas*/
+/*Programa para juego con contraseña*/
 
 #include <iostream>
 #include <cstdlib>
-#include <windows.h>
 #include<string>
 
 using namespace std;
@@ -13,8 +12,6 @@ int main (void)
     string cad1, cad2;
     cad1="MR.D1993R";
 
-    SetConsoleTitleA("357314D0R");
-    SetConsoleOutputCP(1252);
 
 
     //Recibimiento
@@ -32,6 +29,6 @@ int main (void)
     else cout<<"¿No eres quien pensaba? Adiós entonces >:c";//Clave incorrecta
 
     cout<<endl;
-    system ("pause");
+    
     return 0;
 }
